@@ -1,5 +1,10 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script lang="tsx">
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
+
+  setup () {
+    return () => <div>$createElement of undefined</div>
+  }
+})
+</script>
